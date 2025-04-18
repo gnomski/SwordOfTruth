@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[47,)" # Forge 47 — это для Minecraft 1.20.1
+license="MIT"
+
+[[mods]]
+modId="swordoftruth"
+version="1.0.0"
+displayName="Sword of Thousand Truths"
+authors="Gnomski"
+description='''
+Мод добавляет легендарный меч Тысячи Истин с уроном 999.
+'''
+
+[[dependencies.swordoftruth]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.swordoftruth]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.21)"
+ordering="NONE"
+side="BOTH"
